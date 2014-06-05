@@ -1,0 +1,6 @@
+[submodule "translation/ru"]
+	path = translation/ru
+	url = git@github.com:formativ/rebuildinglaravel-ru.git
+[submodule "translation/en"]
+	path = translation/en
+	url = git@github.com:formativ/rebuildinglaravel.git
