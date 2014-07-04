@@ -1,4 +1,4 @@
 @extends("layout")
 @section("body/content")
-{{ $markup }}
+  {{ $markup }}
 @stop
