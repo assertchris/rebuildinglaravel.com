@@ -50,7 +50,8 @@ $routes = [
   "/part-10-response"             => "10-response.md",
   "/part-11-recap"                => "11-recap.md",
   "/part-12-basic-config"         => "12-basic-config.md",
-  "/part-13-environmental-config" => "13-environmental-config.md"
+  "/part-13-environmental-config" => "13-environmental-config.md",
+  "/part-14-sessions"             => "14-sessions.md"
 ];
 
 Route::get("/", function () use ($routes) {
