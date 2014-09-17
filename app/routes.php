@@ -30,7 +30,7 @@ function titleFromRoute($route)
   $route = preg_replace("/[-]([a-z0-9])/", " $1", $route);
   $route = preg_replace("/([0-9]+)/", "$1: ", $route);
 
-  return ucwords($route);
+  return trim(":", ucwords($route));
 }
 
 /*
